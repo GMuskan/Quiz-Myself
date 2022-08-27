@@ -8,7 +8,7 @@ function play(question, answer){
   
   var userAnswer = readlinesync.question(question);
   
-  if(userAnswer===answer)
+  if(userAnswer.toLowerCase()===answer.toLowerCase())
   {
     console.log("you are right!");
     score++;
@@ -32,6 +32,19 @@ var question=[
  {
   question: "Do you know Muskan's favt superhero would be ?",
   answer:"Batman"
+},
+{
+  question: "Do you know muskan's birthday ?",
+  answer:"9 may"
+},
+
+ {
+  question: "what is muskan's favourite food ?",
+  answer:"dosa"
+},
+{
+  question: "where does muskan work ?",
+  answer:"Barclays"
 }]
 
 for(i=0;i<question.length;i++){
