@@ -45,6 +45,28 @@ var question=[
 {
   question: "where does muskan work ?",
   answer:"Barclays"
+},
+{
+  question: "Which is Muskan's favourite colour ?",
+  answer:"Blue"
+},
+
+ {
+  question: "Do you know Muskan's favourite movie ?",
+  answer:"DDLJ"
+},
+{
+  question: "What does Muskan do in free time ?",
+  answer:"Sleep"
+},
+
+ {
+  question: "One word that describes Muskan's character ?",
+  answer:"Kind"
+},
+{
+  question: "Muskan's favourite cartoon character ?",
+  answer:"Doraemon"
 }]
 
 for(i=0;i<question.length;i++){
